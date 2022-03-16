@@ -1,0 +1,6 @@
+<div>
+  <!-- <input type="text" [value]="username" (input)="handleInput($event)" /> -->
+  <input type="text" [(ngModel)]="username" />
+  <!-- <input type="text" [ngModel]="username" (ngModelChange)="username = $event" /> -->
+  <span>{{ username }}</span>
+</div>
